@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage outputs
+*.test
+*.out
+coverage.out
+
+# Local build directories
+/bin/
+/build/
+
+# Dependency directories (uncomment if you vendor dependencies)
+// vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
