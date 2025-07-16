@@ -66,8 +66,8 @@ func Decode(data []byte) (ptp2Frame, error) {
 		return ptp2Frame{}, errors.New("ptp: frame too short")
 	}
 	return ptp2Frame{
-		Type:    MsgType(data[0]),
-		Sequence: binary.BigEndian.Uint16(data[1:3]),
+		Type:      MsgType(data[0]),
+		Sequence:  binary.BigEndian.Uint16(data[1:3]),
 		Timestamp: binary.BigEndian.Uint64(data[3:11]),
 	}, nil
 }
