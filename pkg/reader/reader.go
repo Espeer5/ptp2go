@@ -1,14 +1,13 @@
 package reader
 
 import (
-    "time"
+	"time"
 
-    "github.com/Espeer5/ptp2go/pkg/ptp"
+	"github.com/Espeer5/ptp2go/pkg/ptp"
 )
 
-// ptp2FrameReader is an interface for receiving PTPv2 frames from any source
+// Ptp2FrameReader is an interface for receiving PTPv2 frames from any source
 // ReadFrame returns the next decoded from, local revieve timestamp, or err
-type FrameReader interface {
-    ReadFrame() (ptp.PtpFrame, time.Time, error)
+type Ptp2FrameReader interface {
+	ReadFrame() (ptp.Ptp2Frame, time.Time, error)
 }
-
