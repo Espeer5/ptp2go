@@ -2,7 +2,7 @@
 *                                                                              *
 *  pkg/ptp/frame_test.go                                                       *
 *                                                                              *
-*  Performs unit testing on the ptp2Frame object. Verifies that the object     *
+*  Performs unit testing on the Ptp2Frame object. Verifies that the object     *
 *  can be constructed, populated, encoded, and decoded correctly.              *
 *                                                                              *
 *  Author:   Edward Speer                                                      *
@@ -33,7 +33,7 @@ import (
 // Tests that a user may construct a frame with data
 func TestConstructFrame(t *testing.T) {
 	// Construct a simple frame
-	frame := ptp2Frame{
+	frame := Ptp2Frame{
 		Type:      Sync,
 		Sequence:  0xBEEF,
 		Timestamp: 0x1234567890ABCDEF,
@@ -53,7 +53,7 @@ func TestConstructFrame(t *testing.T) {
 // Tests that a user may encode and decode a frame
 func TestEncodeDecodeFrame(t *testing.T) {
 	// Construct a test frame
-	origin := ptp2Frame{
+	origin := Ptp2Frame{
 		Type:      Sync,
 		Sequence:  0xBEEF,
 		Timestamp: 0x1234567890ABCDEF,
