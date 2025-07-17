@@ -1,3 +1,3 @@
 # PTP2Go
 
-A Goland ptp2 client program
+A Golang ptp2 client program
