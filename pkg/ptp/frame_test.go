@@ -5,7 +5,7 @@
 *  Performs unit testing on the Ptp2Frame object. Verifies that the object     *
 *  can be constructed, populated, encoded, and decoded correctly.              *
 *                                                                              *
-*  Author:   Edward Speer                                                      *
+*  Author:  Edward Speer                                                      *
 *  Revised: 7/16/2025                                                          *
 *                                                                              *
 *******************************************************************************/
