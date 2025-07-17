@@ -6,7 +6,7 @@
 *  data source, constructs it into a Ptp2Frame, and passes it along to the     *
 *  backend.                                                                    *
 *                                                                              *
-*  Author:   Edward Speer                                                      *
+*  Author:  Edward Speer                                                      *
 *  Revised: 7/16/2025                                                          *
 *                                                                              *
 *******************************************************************************/

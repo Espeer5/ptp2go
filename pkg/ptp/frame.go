@@ -6,7 +6,7 @@
 *  utilities for encoding and decoding data frames from big-endian byte        *
 *  slices.                                                                     *
 *                                                                              *
-*  Author:   Edward Speer                                                      *
+*  Author:  Edward Speer                                                      *
 *  Revised: 7/16/2025                                                          *
 *                                                                              *
 *******************************************************************************/
